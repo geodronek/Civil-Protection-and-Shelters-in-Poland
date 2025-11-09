@@ -204,8 +204,9 @@ print(f'Liczba schronów dla mieszkańców w {powiaty_a[4]}:')
 print(type(schrony_count_m))
 '''
 
-path_file3 = 'C:/Users/kamil/OneDrive/Desktop/geo_dronek/OC_geodronek/Silesia/a_warstwy_geopandas/wyniki_schrony_powiaty_silesia.csv'
+path_file3 = 'path to file [.gpkg]'
 pd = pd.read_file(path_file3)
+
 
 
 
