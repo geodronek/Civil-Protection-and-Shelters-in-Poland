@@ -8,7 +8,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import geodatasets
 
-path_file = 'C:/Users/kamil/OneDrive/Desktop/geo_dronek/OC_geodronek/Silesia/all_schrony_silesia_new(powiaty).gpkg'
+path_file = 'path to file [.gpkg]'
 gdf = gpd.read_file(path_file)
 
 # print(gdf.columns)
@@ -206,6 +206,7 @@ print(type(schrony_count_m))
 
 path_file3 = 'C:/Users/kamil/OneDrive/Desktop/geo_dronek/OC_geodronek/Silesia/a_warstwy_geopandas/wyniki_schrony_powiaty_silesia.csv'
 pd = pd.read_file(path_file3)
+
 
 
 
